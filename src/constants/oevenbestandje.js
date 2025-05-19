@@ -35,3 +35,4 @@ function showOutcomeInConsole() {
 
 export {showOutcomeInConsole};
 
+// Het is klaar zo
