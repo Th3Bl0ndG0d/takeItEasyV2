@@ -113,7 +113,9 @@ lang is.
 ### Opdracht 1 - Oefenen met array methodes
 
 Voordat we array methodes gaan toepassen in React, is het belangrijk om nog even te oefenen met deze methodes in 'plain'
-JavaScript. Log de uitkomsten telkens direct in de console. Het is het makkelijkst om voor onderstaande opdrachten even een oefenbestandje aan te maken in dezelfde map als `inventory.js`. Je kunt de uitwerkingen dan in één functie te schrijven en die aanroepen in `App.jsx` (dat is nodig, want anders zie je de `console.log`'s niet).
+JavaScript. Log de uitkomsten telkens direct in de console. 
+Het is het makkelijkst om voor onderstaande opdrachten even een oefenbestandje aan te maken in dezelfde map als `inventory.js`. 
+Je kunt de uitwerkingen dan in één functie te schrijven en die aanroepen in `App.jsx` (dat is nodig, want anders zie je de `console.log`'s niet).
 
 ```javascript
 // oefenbestand.js
@@ -121,7 +123,7 @@ import { inventory } from './inventory.js';
 
 function showOutcomeInConsole() {
   console.log('uitkomst opdracht 1a');
-  console.log('uitkomst opdracht 1b);
+  console.log('uitkomst opdracht 1b');
 }
 
 export default showOutcomeInConsole;

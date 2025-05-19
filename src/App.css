@@ -1,13 +1,102 @@
-#groen {
-    color: green;
-    font-weight: bold;
-}
-#blauw {
-    color: blue;
-    font-weight: bold;
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 2rem;
 }
 
-#rood {
-    color: red;
+h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.dashboard {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    flex: 1;
+    padding: 1.5rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
     font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.card.groen {
+    border-color: #b2dfdb;
+    background-color: #e0f2f1;
+    color: green;
+}
+
+.card.blauw {
+    border-color: #bbdefb;
+    background-color: #e3f2fd;
+    color: blue;
+}
+
+.card.rood {
+    border-color: #ef9a9a;
+    background-color: #ffebee;
+    color: red;
+}
+
+.best-selling-tv {
+    display: flex;
+    border: 1px dotted #999;
+    padding: 1rem;
+    border-radius: 6px;
+    align-items: center;
+    gap: 1rem;
+}
+
+.best-selling-tv img {
+    width: 200px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.tv-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.tv-info p {
+    margin: 0.4rem 0;
+}
+
+.icon-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.icon-row img {
+    width: 20px;
+}
+
+/*Styling voor de iconen*/
+.option-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.option-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
 }
